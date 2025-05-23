@@ -1,0 +1,64 @@
+@breakpoints {
+  .joy-max-w {
+    /* Keep to maintain selector order */
+  }
+  .joy-max-w-0 {
+    max-width: 0;
+  }
+  .joy-max-w-1 {
+    max-width: var(--space-1);
+  }
+  .joy-max-w-2 {
+    max-width: var(--space-2);
+  }
+  .joy-max-w-3 {
+    max-width: var(--space-3);
+  }
+  .joy-max-w-4 {
+    max-width: var(--space-4);
+  }
+  .joy-max-w-5 {
+    max-width: var(--space-5);
+  }
+  .joy-max-w-6 {
+    max-width: var(--space-6);
+  }
+  .joy-max-w-7 {
+    max-width: var(--space-7);
+  }
+  .joy-max-w-8 {
+    max-width: var(--space-8);
+  }
+  .joy-max-w-10 {
+    max-width: var(--space-10);
+  }
+}
+
+.joy-max-w {
+  max-width: var(--max-w);
+}
+@media (--xs) {
+  .xs\:joy-max-w {
+    max-width: var(--max-w-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-max-w {
+    max-width: var(--max-w-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-max-w {
+    max-width: var(--max-w-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-max-w {
+    max-width: var(--max-w-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-max-w {
+    max-width: var(--max-w-xl);
+  }
+}

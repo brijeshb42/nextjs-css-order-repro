@@ -1,0 +1,94 @@
+@breakpoints {
+  .joy-t {
+    /* Keep to maintain selector order */
+  }
+  .joy-t-0 {
+    top: 0;
+  }
+  .joy-t-1 {
+    top: var(--space-1);
+  }
+  .joy-t-2 {
+    top: var(--space-2);
+  }
+  .joy-t-3 {
+    top: var(--space-3);
+  }
+  .joy-t-4 {
+    top: var(--space-4);
+  }
+  .joy-t-5 {
+    top: var(--space-5);
+  }
+  .joy-t-6 {
+    top: var(--space-6);
+  }
+  .joy-t-7 {
+    top: var(--space-7);
+  }
+  .joy-t-8 {
+    top: var(--space-8);
+  }
+  .joy-t-10 {
+    top: var(--space-10);
+  }
+  .-joy-t-1 {
+    top: calc(-1 * var(--space-1));
+  }
+  .-joy-t-2 {
+    top: calc(-1 * var(--space-2));
+  }
+  .-joy-t-3 {
+    top: calc(-1 * var(--space-3));
+  }
+  .-joy-t-4 {
+    top: calc(-1 * var(--space-4));
+  }
+  .-joy-t-5 {
+    top: calc(-1 * var(--space-5));
+  }
+  .-joy-t-6 {
+    top: calc(-1 * var(--space-6));
+  }
+  .-joy-t-7 {
+    top: calc(-1 * var(--space-7));
+  }
+  .-joy-t-8 {
+    top: calc(-1 * var(--space-8));
+  }
+  .-joy-t-9 {
+    top: calc(-1 * var(--space-9));
+  }
+  .-joy-t-10 {
+    top: calc(-1 * var(--space-10));
+  }
+}
+
+.joy-t {
+  top: var(--t);
+}
+@media (--xs) {
+  .xs\:joy-t {
+    top: var(--t-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-t {
+    top: var(--t-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-t {
+    top: var(--t-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-t {
+    top: var(--t-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-t {
+    top: var(--t-xl);
+  }
+}

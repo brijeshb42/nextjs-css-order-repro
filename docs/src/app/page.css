@@ -1,0 +1,40 @@
+:root {
+  /* Button Fancy */
+
+  /* --button-variant-filled-bg: var(--panel);
+  --button-variant-filled-bg--hover: var(--panel);
+  --button-variant-filled-bg--active: var(--panel);
+  --button-variant-filled-color: var(--primary-11);
+  --button-variant-filled-shadow: var(--shadow-6);
+  --button-variant-filled-border-width: 0;
+  --button-variant-filled-border-style: none;
+  --button-variant-filled-border-color: none;
+  --button-variant-filled-border-color--hover: none;
+  --button-variant-filled-border-color--active: none; */
+
+  /* Button Outlined */
+
+  /* --button-variant-filled-bg: var(--primary-2);
+  --button-variant-filled-bg--hover: var(--primary-2);
+  --button-variant-filled-bg--active: var(--primary-2);
+  --button-variant-filled-color: var(--primary-11);
+  --button-variant-filled-shadow: none;
+  --button-variant-filled-border-width: 1px;
+  --button-variant-filled-border-style: solid;
+  --button-variant-filled-border-color: var(--primary-6);
+  --button-variant-filled-border-color--hover: var(--primary-7);
+  --button-variant-filled-border-color--active: var(--primary-8); */
+
+  /* Button Soft */
+
+  /* --button-variant-filled-bg: var(--primary-3);
+  --button-variant-filled-bg--hover: var(--primary-4);
+  --button-variant-filled-bg--active: var(--primary-5);
+  --button-variant-filled-color: var(--primary-11);
+  --button-variant-filled-shadow: none;
+  --button-variant-filled-border-width: 0;
+  --button-variant-filled-border-style: none;
+  --button-variant-filled-border-color: none;
+  --button-variant-filled-border-color--hover: none;
+  --button-variant-filled-border-color--active: none; */
+}

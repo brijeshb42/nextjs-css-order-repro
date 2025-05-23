@@ -1,0 +1,31 @@
+@layer components {
+  .joy-Container {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding-right: var(--container-px);
+    padding-left: var(--container-px);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Size */
+
+  @breakpoints {
+    .joy-Container.size-1 {
+      max-width: var(--container-size-1-max-w);
+    }
+
+    .joy-Container.size-2 {
+      max-width: var(--container-size-2-max-w);
+    }
+
+    .joy-Container.size-3 {
+      max-width: var(--container-size-3-max-w);
+    }
+
+    .joy-Container.size-4 {
+      max-width: var(--container-size-4-max-w);
+    }
+  }
+}

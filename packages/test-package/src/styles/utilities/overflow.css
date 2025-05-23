@@ -1,0 +1,17 @@
+@breakpoints {
+  .joy-o-visible {
+    overflow: visible;
+  }
+  .joy-o-hidden {
+    overflow: hidden;
+  }
+  .joy-o-clip {
+    overflow: clip;
+  }
+  .joy-o-scroll {
+    overflow: scroll;
+  }
+  .joy-o-auto {
+    overflow: auto;
+  }
+}

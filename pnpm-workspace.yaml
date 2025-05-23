@@ -1,0 +1,9 @@
+packages:
+  - packages/*
+  - docs
+  - test
+  - test/*
+  - apps/*
+
+onlyBuiltDependencies:
+  - '@vvago/vale'

@@ -1,0 +1,44 @@
+/* All selectors including tags should have zero specificity */
+
+.joy-reset {
+  /* Focus */
+
+  &:where(:focus) {
+    outline: none;
+  }
+
+  /* Links */
+
+  &:where(a) {
+    all: unset;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Buttons */
+
+  &:where(button, [type='button'], [type='image'], [type='reset'], [type='submit']) {
+    all: unset;
+    display: inline-block;
+    font-weight: normal;
+    font-style: normal;
+    text-indent: initial;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Typography */
+
+  &:where(address, b, cite, code, dfn, em, i, kbd, q, samp, small, strong, var) {
+    font: unset;
+  }
+  &:where(h1, h2, h3, h4, h5, h6) {
+    font: unset;
+    margin: 0;
+  }
+
+  /* Box model */
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}

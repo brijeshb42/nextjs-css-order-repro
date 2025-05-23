@@ -1,0 +1,14 @@
+@breakpoints {
+  .joy-tw-wrap {
+    text-wrap: wrap;
+  }
+  .joy-tw-nowrap {
+    text-wrap: nowrap;
+  }
+  .joy-tw-balance {
+    text-wrap: balance;
+  }
+  .joy-tw-pretty {
+    text-wrap: pretty;
+  }
+}

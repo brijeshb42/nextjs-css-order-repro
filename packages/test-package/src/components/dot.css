@@ -1,0 +1,76 @@
+@layer components {
+  .joy-Dot {
+    box-sizing: border-box;
+    display: flex;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+
+  /* Size */
+
+  @breakpoints {
+    .joy-Dot.size-1 {
+      width: var(--space-2);
+      height: var(--space-2);
+    }
+
+    .joy-Dot.size-2 {
+      width: var(--space-3);
+      height: var(--space-3);
+    }
+
+    .joy-Dot.size-3 {
+      width: var(--space-4);
+      height: var(--space-4);
+    }
+  }
+
+  /* Filled */
+
+  .joy-Dot.variant-filled.color-mauve {
+    background-color: var(--mauve-4);
+  }
+
+  .joy-Dot.variant-filled.color-violet {
+    background-color: var(--violet-9);
+  }
+
+  .joy-Dot.variant-filled.color-cyan {
+    background-color: var(--cyan-9);
+  }
+
+  .joy-Dot.variant-filled.color-jade {
+    background-color: var(--jade-9);
+  }
+
+  .joy-Dot.variant-filled.color-red {
+    background-color: var(--red-9);
+  }
+
+  /* Outlined */
+
+  .joy-Dot.variant-outlined {
+    border-width: 1px;
+    border-style: solid;
+  }
+
+  .joy-Dot.variant-outlined.color-mauve {
+    border-color: var(--mauve-6);
+  }
+
+  .joy-Dot.variant-outlined.color-violet {
+    border-color: var(--violet-6);
+  }
+
+  .joy-Dot.variant-outlined.color-cyan {
+    border-color: var(--cyan-6);
+  }
+
+  .joy-Dot.variant-outlined.color-jade {
+    border-color: var(--jade-6);
+  }
+
+  .joy-Dot.variant-outlined.color-red {
+    border-color: var(--red-6);
+  }
+}

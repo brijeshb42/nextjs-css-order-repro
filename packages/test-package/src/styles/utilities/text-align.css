@@ -1,0 +1,11 @@
+@breakpoints {
+  .joy-ta-start {
+    text-align: start;
+  }
+  .joy-ta-center {
+    text-align: center;
+  }
+  .joy-ta-end {
+    text-align: end;
+  }
+}

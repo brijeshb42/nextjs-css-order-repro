@@ -1,0 +1,120 @@
+@breakpoints {
+  .joy-mt,
+  .joy-mt-0,
+  .joy-mt-1,
+  .joy-mt-2,
+  .joy-mt-3,
+  .joy-mt-4,
+  .joy-mt-5,
+  .joy-mt-6,
+  .joy-mt-7,
+  .joy-mt-8,
+  .joy-mt-9,
+  .joy-mt-10,
+  .-joy-mt-1,
+  .-joy-mt-2,
+  .-joy-mt-3,
+  .-joy-mt-4,
+  .-joy-mt-5,
+  .-joy-mt-6,
+  .-joy-mt-7,
+  .-joy-mt-8,
+  .-joy-mt-9,
+  .-joy-mt-10 {
+    margin-top: var(--margin-top-override, var(--margin-top));
+  }
+  .joy-mt {
+    /* Keep to maintain source order */
+  }
+  .joy-mt-0 {
+    --margin-top: 0px;
+  }
+  .joy-mt-1 {
+    --margin-top: var(--space-1);
+  }
+  .joy-mt-2 {
+    --margin-top: var(--space-2);
+  }
+  .joy-mt-3 {
+    --margin-top: var(--space-3);
+  }
+  .joy-mt-4 {
+    --margin-top: var(--space-4);
+  }
+  .joy-mt-5 {
+    --margin-top: var(--space-5);
+  }
+  .joy-mt-6 {
+    --margin-top: var(--space-6);
+  }
+  .joy-mt-7 {
+    --margin-top: var(--space-7);
+  }
+  .joy-mt-8 {
+    --margin-top: var(--space-8);
+  }
+  .joy-mt-9 {
+    --margin-top: var(--space-9);
+  }
+  .joy-mt-10 {
+    --margin-top: var(--space-10);
+  }
+  .-joy-mt-1 {
+    --margin-top: calc(-1 * var(--space-1));
+  }
+  .-joy-mt-2 {
+    --margin-top: calc(-1 * var(--space-2));
+  }
+  .-joy-mt-3 {
+    --margin-top: calc(-1 * var(--space-3));
+  }
+  .-joy-mt-4 {
+    --margin-top: calc(-1 * var(--space-4));
+  }
+  .-joy-mt-5 {
+    --margin-top: calc(-1 * var(--space-5));
+  }
+  .-joy-mt-6 {
+    --margin-top: calc(-1 * var(--space-6));
+  }
+  .-joy-mt-7 {
+    --margin-top: calc(-1 * var(--space-7));
+  }
+  .-joy-mt-8 {
+    --margin-top: calc(-1 * var(--space-8));
+  }
+  .-joy-mt-9 {
+    --margin-top: calc(-1 * var(--space-9));
+  }
+  .-joy-mt-10 {
+    --margin-top: calc(-1 * var(--space-10));
+  }
+}
+.joy-mt {
+  --margin-top: var(--mt);
+}
+@media (--xs) {
+  .xs\:joy-mt {
+    --margin-top: var(--mt-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-mt {
+    --margin-top: var(--mt-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-mt {
+    --margin-top: var(--mt-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-mt {
+    --margin-top: var(--mt-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-mt {
+    --margin-top: var(--mt-xl);
+  }
+}

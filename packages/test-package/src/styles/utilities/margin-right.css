@@ -1,0 +1,120 @@
+@breakpoints {
+  .joy-mr,
+  .joy-mr-0,
+  .joy-mr-1,
+  .joy-mr-2,
+  .joy-mr-3,
+  .joy-mr-4,
+  .joy-mr-5,
+  .joy-mr-6,
+  .joy-mr-7,
+  .joy-mr-8,
+  .joy-mr-9,
+  .joy-mr-10,
+  .-joy-mr-1,
+  .-joy-mr-2,
+  .-joy-mr-3,
+  .-joy-mr-4,
+  .-joy-mr-5,
+  .-joy-mr-6,
+  .-joy-mr-7,
+  .-joy-mr-8,
+  .-joy-mr-9,
+  .-joy-mr-10 {
+    margin-right: var(--margin-right-override, var(--margin-right));
+  }
+  .joy-mr {
+    /* Keep to maintain source order */
+  }
+  .joy-mr-0 {
+    --margin-right: 0px;
+  }
+  .joy-mr-1 {
+    --margin-right: var(--space-1);
+  }
+  .joy-mr-2 {
+    --margin-right: var(--space-2);
+  }
+  .joy-mr-3 {
+    --margin-right: var(--space-3);
+  }
+  .joy-mr-4 {
+    --margin-right: var(--space-4);
+  }
+  .joy-mr-5 {
+    --margin-right: var(--space-5);
+  }
+  .joy-mr-6 {
+    --margin-right: var(--space-6);
+  }
+  .joy-mr-7 {
+    --margin-right: var(--space-7);
+  }
+  .joy-mr-8 {
+    --margin-right: var(--space-8);
+  }
+  .joy-mr-9 {
+    --margin-right: var(--space-9);
+  }
+  .joy-mr-10 {
+    --margin-right: var(--space-10);
+  }
+  .-joy-mr-1 {
+    --margin-right: calc(-1 * var(--space-1));
+  }
+  .-joy-mr-2 {
+    --margin-right: calc(-1 * var(--space-2));
+  }
+  .-joy-mr-3 {
+    --margin-right: calc(-1 * var(--space-3));
+  }
+  .-joy-mr-4 {
+    --margin-right: calc(-1 * var(--space-4));
+  }
+  .-joy-mr-5 {
+    --margin-right: calc(-1 * var(--space-5));
+  }
+  .-joy-mr-6 {
+    --margin-right: calc(-1 * var(--space-6));
+  }
+  .-joy-mr-7 {
+    --margin-right: calc(-1 * var(--space-7));
+  }
+  .-joy-mr-8 {
+    --margin-right: calc(-1 * var(--space-8));
+  }
+  .-joy-mr-9 {
+    --margin-right: calc(-1 * var(--space-9));
+  }
+  .-joy-mr-10 {
+    --margin-right: calc(-1 * var(--space-10));
+  }
+}
+.joy-mr {
+  --margin-right: var(--mr);
+}
+@media (--xs) {
+  .xs\:joy-mr {
+    --margin-right: var(--mr-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-mr {
+    --margin-right: var(--mr-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-mr {
+    --margin-right: var(--mr-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-mr {
+    --margin-right: var(--mr-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-mr {
+    --margin-right: var(--mr-xl);
+  }
+}

@@ -1,0 +1,20 @@
+@breakpoints {
+  .joy-jc-center {
+    justify-content: center;
+  }
+  .joy-jc-end {
+    justify-content: end;
+  }
+  .joy-jc-start {
+    justify-content: start;
+  }
+  .joy-jc-space-around {
+    justify-content: space-around;
+  }
+  .joy-jc-space-between {
+    justify-content: space-between;
+  }
+  .joy-jc-space-evenly {
+    justify-content: space-evenly;
+  }
+}

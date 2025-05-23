@@ -1,0 +1,6 @@
+@layer components {
+  .joy-Grid {
+    box-sizing: border-box;
+    display: grid;
+  }
+}

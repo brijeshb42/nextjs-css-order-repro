@@ -1,0 +1,34 @@
+# It is best to ignoring editor and system files in a local .gitignore configuration file.
+# However, in order to prevent issues, they are ignored here.
+.DS_STORE
+.idea
+# IntelliJ IDEA module file
+*.iml
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+*.log
+*.tsbuildinfo
+/.eslintcache
+/.nyc_output
+/coverage
+/docs/.env.local
+/docs/export
+/docs/pages/playground/
+/docs/public/feed/
+/examples/**/.cache
+/tmp
+.next
+# created by netlify dev (to perform local debug)
+.netlify
+build
+dist
+node_modules
+package-lock.json
+size-snapshot.json
+# vale downloaded config
+.github/styles/
+.nx/cache
+.nx/workspace-data
+screenshots
+packed

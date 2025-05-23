@@ -1,0 +1,120 @@
+@breakpoints {
+  .joy-ml,
+  .joy-ml-0,
+  .joy-ml-1,
+  .joy-ml-2,
+  .joy-ml-3,
+  .joy-ml-4,
+  .joy-ml-5,
+  .joy-ml-6,
+  .joy-ml-7,
+  .joy-ml-8,
+  .joy-ml-9,
+  .joy-ml-10,
+  .-joy-ml-1,
+  .-joy-ml-2,
+  .-joy-ml-3,
+  .-joy-ml-4,
+  .-joy-ml-5,
+  .-joy-ml-6,
+  .-joy-ml-7,
+  .-joy-ml-8,
+  .-joy-ml-9,
+  .-joy-ml-10 {
+    margin-left: var(--margin-left-override, var(--margin-left));
+  }
+  .joy-ml {
+    /* Keep to maintain source order */
+  }
+  .joy-ml-0 {
+    --margin-left: 0px;
+  }
+  .joy-ml-1 {
+    --margin-left: var(--space-1);
+  }
+  .joy-ml-2 {
+    --margin-left: var(--space-2);
+  }
+  .joy-ml-3 {
+    --margin-left: var(--space-3);
+  }
+  .joy-ml-4 {
+    --margin-left: var(--space-4);
+  }
+  .joy-ml-5 {
+    --margin-left: var(--space-5);
+  }
+  .joy-ml-6 {
+    --margin-left: var(--space-6);
+  }
+  .joy-ml-7 {
+    --margin-left: var(--space-7);
+  }
+  .joy-ml-8 {
+    --margin-left: var(--space-8);
+  }
+  .joy-ml-9 {
+    --margin-left: var(--space-9);
+  }
+  .joy-ml-10 {
+    --margin-left: var(--space-10);
+  }
+  .-joy-ml-1 {
+    --margin-left: calc(-1 * var(--space-1));
+  }
+  .-joy-ml-2 {
+    --margin-left: calc(-1 * var(--space-2));
+  }
+  .-joy-ml-3 {
+    --margin-left: calc(-1 * var(--space-3));
+  }
+  .-joy-ml-4 {
+    --margin-left: calc(-1 * var(--space-4));
+  }
+  .-joy-ml-5 {
+    --margin-left: calc(-1 * var(--space-5));
+  }
+  .-joy-ml-6 {
+    --margin-left: calc(-1 * var(--space-6));
+  }
+  .-joy-ml-7 {
+    --margin-left: calc(-1 * var(--space-7));
+  }
+  .-joy-ml-8 {
+    --margin-left: calc(-1 * var(--space-8));
+  }
+  .-joy-ml-9 {
+    --margin-left: calc(-1 * var(--space-9));
+  }
+  .-joy-ml-10 {
+    --margin-left: calc(-1 * var(--space-10));
+  }
+}
+.joy-ml {
+  --margin-left: var(--ml);
+}
+@media (--xs) {
+  .xs\:joy-ml {
+    --margin-left: var(--ml-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-ml {
+    --margin-left: var(--ml-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-ml {
+    --margin-left: var(--ml-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-ml {
+    --margin-left: var(--ml-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-ml {
+    --margin-left: var(--ml-xl);
+  }
+}

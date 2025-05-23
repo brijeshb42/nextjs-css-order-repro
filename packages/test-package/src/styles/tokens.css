@@ -1,0 +1,475 @@
+/* Tokens that don't depend on the color scheme */
+
+.joy {
+  /* Aliases */
+
+  --gray-1: var(--mauve-1);
+  --gray-2: var(--mauve-2);
+  --gray-3: var(--mauve-3);
+  --gray-4: var(--mauve-4);
+  --gray-5: var(--mauve-5);
+  --gray-6: var(--mauve-6);
+  --gray-7: var(--mauve-7);
+  --gray-8: var(--mauve-8);
+  --gray-9: var(--mauve-9);
+  --gray-10: var(--mauve-10);
+  --gray-11: var(--mauve-11);
+  --gray-12: var(--mauve-12);
+
+  --primary-1: var(--violet-1);
+  --primary-2: var(--violet-2);
+  --primary-3: var(--violet-3);
+  --primary-4: var(--violet-4);
+  --primary-5: var(--violet-5);
+  --primary-6: var(--violet-6);
+  --primary-7: var(--violet-7);
+  --primary-8: var(--violet-8);
+  --primary-9: var(--violet-9);
+  --primary-10: var(--violet-10);
+  --primary-11: var(--violet-11);
+  --primary-12: var(--violet-12);
+
+  --secondary-1: var(--cyan-1);
+  --secondary-2: var(--cyan-2);
+  --secondary-3: var(--cyan-3);
+  --secondary-4: var(--cyan-4);
+  --secondary-5: var(--cyan-5);
+  --secondary-6: var(--cyan-6);
+  --secondary-7: var(--cyan-7);
+  --secondary-8: var(--cyan-8);
+  --secondary-9: var(--cyan-9);
+  --secondary-10: var(--cyan-10);
+  --secondary-11: var(--cyan-11);
+  --secondary-12: var(--cyan-12);
+
+  --success-1: var(--jade-1);
+  --success-2: var(--jade-2);
+  --success-3: var(--jade-3);
+  --success-4: var(--jade-4);
+  --success-5: var(--jade-5);
+  --success-6: var(--jade-6);
+  --success-7: var(--jade-7);
+  --success-8: var(--jade-8);
+  --success-9: var(--jade-9);
+  --success-10: var(--jade-10);
+  --success-11: var(--jade-11);
+  --success-12: var(--jade-12);
+
+  --error-1: var(--red-1);
+  --error-2: var(--red-2);
+  --error-3: var(--red-3);
+  --error-4: var(--red-4);
+  --error-5: var(--red-5);
+  --error-6: var(--red-6);
+  --error-7: var(--red-7);
+  --error-8: var(--red-8);
+  --error-9: var(--red-9);
+  --error-10: var(--red-10);
+  --error-11: var(--red-11);
+  --error-12: var(--red-12);
+
+  --surface: white;
+  --panel: white;
+  --shadow-black: 0 0% 0%;
+  --shadow-tint: 215 22% 17%;
+
+  /* Scales */
+  --font-family-1: 'Instrument Sans', -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  --font-family-2: -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  --font-family-3:
+    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+
+  --font-size-1: 12px;
+  --font-size-2: 14px;
+  --font-size-3: 16px;
+  --font-size-4: 18px;
+  --font-size-5: 20px;
+  --font-size-6: 26px;
+  --font-size-7: 36px;
+  --font-size-8: 46px;
+  --font-size-9: 58px;
+
+  --line-height-1: 18px;
+  --line-height-2: 22px;
+  --line-height-3: 24px;
+  --line-height-4: 25px;
+  --line-height-5: 25px;
+  --line-height-6: 31px;
+  --line-height-7: 38px;
+  --line-height-8: 48px;
+  --line-height-9: 56px;
+
+  --letter-spacing-1: 0.025em;
+  --letter-spacing-2: 0.02em;
+  --letter-spacing-3: 0.016em;
+  --letter-spacing-4: 0.0125em;
+  --letter-spacing-5: 0.0125em;
+  --letter-spacing-6: -0.016em;
+  --letter-spacing-7: -0.021em;
+  --letter-spacing-8: -0.038em;
+  --letter-spacing-9: -0.036em;
+
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 600;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 40px;
+  --space-9: 48px;
+  --space-10: 64px;
+
+  --radius-1: 2px;
+  --radius-2: 3px;
+  --radius-3: 4px;
+  --radius-4: 6px;
+  --radius-5: 8px;
+  --radius-6: 12px;
+  --radius-7: 16px;
+  --radius-pill: 9999px;
+  --radius-circle: 50%;
+
+  --duration-1: 25ms;
+  --duration-2: 50ms;
+  --duration-3: 100ms;
+
+  --shadow-1:
+    0 1px 1px 0 hsl(0, 0, 0, 0.05), 0 2px 1px -1px hsl(0, 0, 0, 0.05),
+    0 1px 3px 0 hsl(0, 0, 0, 0.05);
+
+  --shadow-4:
+    0 1px 1px 0px hsl(var(--shadow-tint) / 5%), 0 1px 3px 0px hsl(var(--shadow-tint) / 5%),
+    0 4px 8px 0px hsl(var(--shadow-tint) / 5%);
+
+  --shadow-5:
+    0 1px 1px 0px hsl(var(--shadow-tint) / 5%), 0 2px 6px -1px hsl(var(--shadow-tint) / 5%),
+    0 6px 12px -3px hsl(var(--shadow-tint) / 5%), 0 8px 16px -4px hsl(var(--shadow-tint) / 5%);
+
+  --shadow-6:
+    0 1px 1px 0px hsl(var(--shadow-tint) / 5%), 0 2px 4px -1px hsl(var(--shadow-tint) / 5%),
+    0 4px 8px -2px hsl(var(--shadow-tint) / 5%), 0 12px 32px -6px hsl(var(--shadow-tint) / 12%),
+    0 20px 48px -10px hsl(var(--shadow-tint) / 5%);
+
+  --shadow-9:
+    hsl(var(--shadow-tint) / 15%) 0px 10px 32px, hsl(var(--shadow-black) / 5%) 0px 1px 1px,
+    hsl(var(--shadow-tint) / 8%) 0px 4px 6px, hsl(var(--shadow-tint) / 10%) 0px 1px 1px,
+    hsl(var(--shadow-tint) / 10%) 0 24px 68px;
+
+  --cursor-button: default;
+  --cursor-disabled: not-allowed;
+
+  /* Font */
+
+  --default-font-family: var(--font-family-1);
+  --default-font-size: var(--font-size-3);
+  --default-font-style: normal;
+  --default-line-height: 1.5;
+  --default-letter-spacing: 0.016em;
+  --default-font-weight: var(--font-weight-1);
+  --default-text-color: var(--gray-12);
+
+  --heading-font-family: var(--default-font-family);
+  --heading-font-size-adjust: 1;
+  --heading-font-style: normal;
+  --heading-letter-spacing: 0em;
+
+  --strong-font-family: var(--default-font-family);
+  --strong-font-size-adjust: 1;
+  --strong-font-style: inherit;
+  --strong-font-weight: var(--font-weight-3);
+  --strong-letter-spacing: 0em;
+
+  --em-font-family: 'Times New Roman', 'Times', serif;
+  --em-font-size-adjust: 1.18;
+  --em-font-style: italic;
+  --em-font-weight: inherit;
+  --em-letter-spacing: -0.025em;
+
+  --code-font-family:
+    SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --code-font-size-adjust: 0.84;
+  --code-font-style: normal;
+  --code-font-weight: inherit;
+  --code-letter-spacing: -0.007em;
+  --code-padding-top: 0.12em;
+  --code-padding-bottom: 0.12em;
+  --code-padding-left: 0.24em;
+  --code-padding-right: 0.24em;
+
+  /* Component tokens */
+
+  /* Button */
+
+  --button-typeface: var(--font-family-1);
+  --button-weight: var(--font-weight-2);
+
+  --button-size-1-h: var(--space-6);
+  --button-size-1-fs: var(--font-size-1);
+  --button-size-1-px: var(--space-3);
+  --button-size-1-radius: var(--radius-pill);
+
+  --button-size-2-h: var(--space-7);
+  --button-size-2-fs: var(--font-size-2);
+  --button-size-2-px: var(--space-4);
+  --button-size-2-radius: var(--radius-pill);
+
+  --button-size-3-h: var(--space-8);
+  --button-size-3-fs: var(--font-size-3);
+  --button-size-3-px: var(--space-5);
+  --button-size-3-radius: var(--radius-pill);
+
+  --button-variant-filled-bg: var(--primary-9);
+  --button-variant-filled-bg--hover: var(--primary-10);
+  --button-variant-filled-bg--active: var(--primary-11);
+  --button-variant-filled-color: white;
+  --button-variant-filled-shadow: none;
+  --button-variant-filled-border-width: 0;
+  --button-variant-filled-border-style: none;
+  --button-variant-filled-border-color: none;
+  --button-variant-filled-border-color--hover: none;
+  --button-variant-filled-border-color--active: none;
+
+  /* Container */
+
+  --container-px: var(--space-6);
+  --container-size-1-max-w: 448px;
+  --container-size-2-max-w: 688px;
+  --container-size-3-max-w: 768px;
+  --container-size-4-max-w: 1136px;
+
+  /* Section */
+
+  --section-size-1-py: var(--space-4);
+  --section-size-2-py: var(--space-6);
+  --section-size-3-py: var(--space-8);
+  --section-size-4-py: var(--space-10);
+}
+
+/* Colors: light */
+
+:root,
+.light {
+  --white-a1: rgba(255, 255, 255, 0.05);
+  --white-a2: rgba(255, 255, 255, 0.1);
+  --white-a3: rgba(255, 255, 255, 0.15);
+  --white-a4: rgba(255, 255, 255, 0.2);
+  --white-a5: rgba(255, 255, 255, 0.3);
+  --white-a6: rgba(255, 255, 255, 0.4);
+  --white-a7: rgba(255, 255, 255, 0.5);
+  --white-a8: rgba(255, 255, 255, 0.6);
+  --white-a9: rgba(255, 255, 255, 0.7);
+  --white-a10: rgba(255, 255, 255, 0.8);
+  --white-a11: rgba(255, 255, 255, 0.9);
+  --white-a12: rgba(255, 255, 255, 0.95);
+
+  --black-a1: rgba(0, 0, 0, 0.05);
+  --black-a2: rgba(0, 0, 0, 0.1);
+  --black-a3: rgba(0, 0, 0, 0.15);
+  --black-a4: rgba(0, 0, 0, 0.2);
+  --black-a5: rgba(0, 0, 0, 0.3);
+  --black-a6: rgba(0, 0, 0, 0.4);
+  --black-a7: rgba(0, 0, 0, 0.5);
+  --black-a8: rgba(0, 0, 0, 0.6);
+  --black-a9: rgba(0, 0, 0, 0.7);
+  --black-a10: rgba(0, 0, 0, 0.8);
+  --black-a11: rgba(0, 0, 0, 0.9);
+  --black-a12: rgba(0, 0, 0, 0.95);
+
+  --mauve-1: #fdfcfd;
+  --mauve-2: #faf9fb;
+  --mauve-3: #f2eff3;
+  --mauve-4: #eae7ec;
+  --mauve-5: #e3dfe6;
+  --mauve-6: #dbd8e0;
+  --mauve-7: #d0cdd7;
+  --mauve-8: #bcbac7;
+  --mauve-9: #8e8c99;
+  --mauve-10: #84828e;
+  --mauve-11: #65636d;
+  --mauve-12: #211f26;
+
+  --indigo-1: #fdfdfe;
+  --indigo-2: #f7f9ff;
+  --indigo-3: #edf2fe;
+  --indigo-4: #e1e9ff;
+  --indigo-5: #d2deff;
+  --indigo-6: #c1d0ff;
+  --indigo-7: #abbdf9;
+  --indigo-8: #8da4ef;
+  --indigo-9: #3e63dd;
+  --indigo-10: #3358d4;
+  --indigo-11: #3a5bc7;
+  --indigo-12: #1f2d5c;
+
+  --indigo-a1: #00008002;
+  --indigo-a2: #0040ff08;
+  --indigo-a3: #0047f112;
+  --indigo-a4: #0044ff1e;
+  --indigo-a5: #0044ff2d;
+  --indigo-a6: #003eff3e;
+  --indigo-a7: #0037ed54;
+  --indigo-a8: #0034dc72;
+  --indigo-a9: #0031d2c1;
+  --indigo-a10: #002ec9cc;
+  --indigo-a11: #002bb7c5;
+  --indigo-a12: #001046e0;
+
+  --violet-1: #fdfcfe;
+  --violet-2: #faf8ff;
+  --violet-3: #f4f0fe;
+  --violet-4: #ebe4ff;
+  --violet-5: #e1d9ff;
+  --violet-6: #d4cafe;
+  --violet-7: #c2b5f5;
+  --violet-8: #aa99ec;
+  --violet-9: #6e56cf;
+  --violet-10: #654dc4;
+  --violet-11: #6550b9;
+  --violet-12: #2f265f;
+
+  --cyan-1: #fafdfe;
+  --cyan-2: #f2fafb;
+  --cyan-3: #def7f9;
+  --cyan-4: #caf1f6;
+  --cyan-5: #b5e9f0;
+  --cyan-6: #9ddde7;
+  --cyan-7: #7dcedc;
+  --cyan-8: #3db9cf;
+  --cyan-9: #00a2c7;
+  --cyan-10: #0797b9;
+  --cyan-11: #107d98;
+  --cyan-12: #0d3c48;
+
+  --jade-1: #fbfefd;
+  --jade-2: #f4fbf7;
+  --jade-3: #e6f7ed;
+  --jade-4: #d6f1e3;
+  --jade-5: #c3e9d7;
+  --jade-6: #acdec8;
+  --jade-7: #8bceb6;
+  --jade-8: #56ba9f;
+  --jade-9: #29a383;
+  --jade-10: #26997b;
+  --jade-11: #208368;
+  --jade-12: #1d3b31;
+
+  --red-1: #fffcfc;
+  --red-2: #fff7f7;
+  --red-3: #feebec;
+  --red-4: #ffdbdc;
+  --red-5: #ffcdce;
+  --red-6: #fdbdbe;
+  --red-7: #f4a9aa;
+  --red-8: #eb8e90;
+  --red-9: #e5484d;
+  --red-10: #dc3e42;
+  --red-11: #ce2c31;
+  --red-12: #641723;
+}
+
+/* Dark: dark */
+
+.dark {
+  --mauve-1: #121113;
+  --mauve-2: #1a191b;
+  --mauve-3: #232225;
+  --mauve-4: #2b292d;
+  --mauve-5: #323035;
+  --mauve-6: #3c393f;
+  --mauve-7: #49474e;
+  --mauve-8: #625f69;
+  --mauve-9: #6f6d78;
+  --mauve-10: #7c7a85;
+  --mauve-11: #b5b2bc;
+  --mauve-12: #eeeef0;
+
+  --indigo-1: #11131f;
+  --indigo-2: #141726;
+  --indigo-3: #182449;
+  --indigo-4: #1d2e62;
+  --indigo-5: #253974;
+  --indigo-6: #304384;
+  --indigo-7: #3a4f97;
+  --indigo-8: #435db1;
+  --indigo-9: #3e63dd;
+  --indigo-10: #5472e4;
+  --indigo-11: #9eb1ff;
+  --indigo-12: #d6e1ff;
+
+  --indigo-a1: #1133ff0f;
+  --indigo-a2: #3354fa17;
+  --indigo-a3: #2f62ff3c;
+  --indigo-a4: #3566ff57;
+  --indigo-a5: #4171fd6b;
+  --indigo-a6: #5178fd7c;
+  --indigo-a7: #5a7fff90;
+  --indigo-a8: #5b81feac;
+  --indigo-a9: #4671ffdb;
+  --indigo-a10: #5c7efee3;
+  --indigo-a11: #9eb1ff;
+  --indigo-a12: #d6e1ff;
+
+  --violet-1: #14121f;
+  --violet-2: #1b1525;
+  --violet-3: #291f43;
+  --violet-4: #33255b;
+  --violet-5: #3c2e69;
+  --violet-6: #473876;
+  --violet-7: #56468b;
+  --violet-8: #6958ad;
+  --violet-9: #6e56cf;
+  --violet-10: #7d66d9;
+  --violet-11: #baa7ff;
+  --violet-12: #e2ddfe;
+
+  --cyan-1: #0b161a;
+  --cyan-2: #101b20;
+  --cyan-3: #082c36;
+  --cyan-4: #003848;
+  --cyan-5: #004558;
+  --cyan-6: #045468;
+  --cyan-7: #12677e;
+  --cyan-8: #11809c;
+  --cyan-9: #00a2c7;
+  --cyan-10: #23afd0;
+  --cyan-11: #4ccce6;
+  --cyan-12: #b6ecf7;
+
+  --jade-1: #0d1512;
+  --jade-2: #121c18;
+  --jade-3: #0f2e22;
+  --jade-4: #0b3b2c;
+  --jade-5: #114837;
+  --jade-6: #1b5745;
+  --jade-7: #246854;
+  --jade-8: #2a7e68;
+  --jade-9: #29a383;
+  --jade-10: #27b08b;
+  --jade-11: #1fd8a4;
+  --jade-12: #adf0d4;
+
+  --red-1: #191111;
+  --red-2: #201314;
+  --red-3: #3b1219;
+  --red-4: #500f1c;
+  --red-5: #611623;
+  --red-6: #72232d;
+  --red-7: #8c333a;
+  --red-8: #b54548;
+  --red-9: #e5484d;
+  --red-10: #ec5d5e;
+  --red-11: #ff9592;
+  --red-12: #ffd1d9;
+
+  /* Aliases */
+
+  --surface: var(--mauve-1);
+  --panel: var(--mauve-2);
+  --shadow-tint: 0 0% 0%;
+}

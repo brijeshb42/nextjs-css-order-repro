@@ -1,0 +1,6 @@
+@layer components {
+  .joy-Box {
+    box-sizing: border-box;
+    display: block;
+  }
+}

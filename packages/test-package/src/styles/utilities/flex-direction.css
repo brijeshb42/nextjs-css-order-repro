@@ -1,0 +1,17 @@
+@breakpoints {
+  .joy-fd-row {
+    flex-direction: row;
+  }
+
+  .joy-fd-column {
+    flex-direction: column;
+  }
+
+  .joy-fd-row-reverse {
+    flex-direction: row-reverse;
+  }
+
+  .joy-fd-column-reverse {
+    flex-direction: column-reverse;
+  }
+}

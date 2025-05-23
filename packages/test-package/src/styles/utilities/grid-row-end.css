@@ -1,0 +1,70 @@
+@breakpoints {
+  .joy-gre {
+    /* Keep to maintain selector order */
+  }
+  .joy-gre-1 {
+    grid-row-end: 1;
+  }
+  .joy-gre-2 {
+    grid-row-end: 2;
+  }
+  .joy-gre-3 {
+    grid-row-end: 3;
+  }
+  .joy-gre-4 {
+    grid-row-end: 4;
+  }
+  .joy-gre-5 {
+    grid-row-end: 5;
+  }
+  .joy-gre-6 {
+    grid-row-end: 6;
+  }
+  .joy-gre-7 {
+    grid-row-end: 7;
+  }
+  .joy-gre-8 {
+    grid-row-end: 8;
+  }
+  .joy-gre-9 {
+    grid-row-end: 9;
+  }
+  .joy-gre-10 {
+    grid-row-end: 10;
+  }
+  .joy-gre-11 {
+    grid-row-end: 11;
+  }
+  .joy-gre-12 {
+    grid-row-end: 12;
+  }
+}
+
+.joy-gre {
+  grid-row-end: var(--gre);
+}
+@media (--xs) {
+  .xs\:joy-gre {
+    grid-row-end: var(--gre-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-gre {
+    grid-row-end: var(--gre-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-gre {
+    grid-row-end: var(--gre-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-gre {
+    grid-row-end: var(--gre-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-gre {
+    grid-row-end: var(--gre-xl);
+  }
+}

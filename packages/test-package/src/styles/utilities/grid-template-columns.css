@@ -1,0 +1,70 @@
+@breakpoints {
+  .joy-gtc {
+    /* Keep to maintain selector order */
+  }
+  .joy-gtc-1 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .joy-gtc-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .joy-gtc-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .joy-gtc-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .joy-gtc-5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+  .joy-gtc-6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .joy-gtc-7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+  .joy-gtc-8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+  .joy-gtc-9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+  }
+  .joy-gtc-10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+  .joy-gtc-11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+  .joy-gtc-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+}
+
+.joy-gtc {
+  grid-template-columns: var(--gtc);
+}
+@media (--xs) {
+  .xs\:joy-gtc {
+    grid-template-columns: var(--gtc-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-gtc {
+    grid-template-columns: var(--gtc-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-gtc {
+    grid-template-columns: var(--gtc-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-gtc {
+    grid-template-columns: var(--gtc-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-gtc {
+    grid-template-columns: var(--gtc-xl);
+  }
+}

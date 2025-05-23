@@ -1,0 +1,26 @@
+@breakpoints {
+  .joy-d-block {
+    display: block;
+  }
+  .joy-d-flex {
+    display: flex;
+  }
+  .joy-d-grid {
+    display: grid;
+  }
+  .joy-d-inline {
+    display: inline;
+  }
+  .joy-d-inline-block {
+    display: inline-block;
+  }
+  .joy-d-inline-flex {
+    display: inline-flex;
+  }
+  .joy-d-inline-grid {
+    display: inline-grid;
+  }
+  .joy-d-none {
+    display: none;
+  }
+}

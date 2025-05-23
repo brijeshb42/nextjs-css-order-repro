@@ -1,0 +1,38 @@
+.joy-fs {
+  /* Keep to maintain selector order */
+}
+.joy-fs-0 {
+  flex-shrink: 0;
+}
+.joy-fs-1 {
+  flex-shrink: 1;
+}
+
+.joy-fs {
+  flex-shrink: var(--fs);
+}
+@media (--xs) {
+  .xs\:joy-fs {
+    flex-shrink: var(--fs-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-fs {
+    flex-shrink: var(--fs-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-fs {
+    flex-shrink: var(--fs-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-fs {
+    flex-shrink: var(--fs-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-fs {
+    flex-shrink: var(--fs-xl);
+  }
+}

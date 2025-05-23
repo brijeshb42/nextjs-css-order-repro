@@ -1,0 +1,67 @@
+@breakpoints {
+  .joy-rg {
+    /* Keep to maintain selector order */
+  }
+  .joy-rg-0 {
+    row-gap: 0;
+  }
+  .joy-rg-1 {
+    row-gap: var(--space-1);
+  }
+  .joy-rg-2 {
+    row-gap: var(--space-2);
+  }
+  .joy-rg-3 {
+    row-gap: var(--space-3);
+  }
+  .joy-rg-4 {
+    row-gap: var(--space-4);
+  }
+  .joy-rg-5 {
+    row-gap: var(--space-5);
+  }
+  .joy-rg-6 {
+    row-gap: var(--space-6);
+  }
+  .joy-rg-7 {
+    row-gap: var(--space-7);
+  }
+  .joy-rg-8 {
+    row-gap: var(--space-8);
+  }
+  .joy-rg-9 {
+    row-gap: var(--space-9);
+  }
+  .joy-rg-10 {
+    row-gap: var(--space-10);
+  }
+}
+
+.joy-rg {
+  row-gap: var(--rg);
+}
+@media (--xs) {
+  .xs\:joy-rg {
+    row-gap: var(--rg-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-rg {
+    row-gap: var(--rg-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-rg {
+    row-gap: var(--rg-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-rg {
+    row-gap: var(--rg-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-rg {
+    row-gap: var(--rg-xl);
+  }
+}

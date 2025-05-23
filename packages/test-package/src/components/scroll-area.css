@@ -1,0 +1,91 @@
+@layer components {
+  /*
+   * Root
+   */
+
+  .joy-ScrollAreaRoot {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+  }
+
+  /*
+ * Viewport
+ */
+
+  .joy-ScrollAreaViewport {
+    box-sizing: border-box;
+    height: 100%;
+  }
+
+  /*
+ * Scrollbar
+ */
+
+  .joy-ScrollAreaScrollbar[data-orientation='vertical'] {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-right: 2px;
+  }
+
+  .joy-ScrollAreaScrollbar[data-orientation='vertical']::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: var(--space-3);
+    height: 100%;
+  }
+
+  .joy-ScrollAreaScrollbar[data-orientation='horizontal'] {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-bottom: 2px;
+  }
+
+  .joy-ScrollAreaScrollbar[data-orientation='horizontal']::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: var(--space-3);
+    width: 100%;
+  }
+
+  /*
+ * Visibility
+ */
+
+  .joy-ScrollAreaRoot.visibility-hover .joy-ScrollAreaScrollbar {
+    opacity: 0;
+  }
+
+  .joy-ScrollAreaRoot.visibility-hover .joy-ScrollAreaScrollbar[data-hovering] {
+    opacity: 1;
+  }
+
+  .joy-ScrollAreaRoot.visibility-scroll .joy-ScrollAreaScrollbar {
+    opacity: 0;
+  }
+
+  .joy-ScrollAreaRoot.visibility-scroll .joy-ScrollAreaScrollbar[data-scrolling] {
+    opacity: 1;
+  }
+
+  /*
+ * Thumb
+ */
+
+  .joy-ScrollAreaThumb {
+    border-radius: var(--radius-pill);
+    background-color: var(--gray-9);
+  }
+
+  .joy-ScrollAreaThumb[data-orientation='vertical'] {
+    width: var(--space-1);
+  }
+
+  .joy-ScrollAreaThumb[data-orientation='horizontal'] {
+    height: var(--space-1);
+  }
+}

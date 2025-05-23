@@ -1,0 +1,33 @@
+.ThemeToggle {
+  all: unset;
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  color: inherit;
+  border-radius: 6px;
+  user-select: none;
+  transition-property: background-color;
+  transition-duration: 50ms;
+  transition-timing-function: linear;
+}
+
+@media screen and (hover: hover) {
+  .ThemeToggle:hover {
+    background-color: var(--gray-3);
+  }
+}
+
+.ThemeToggle:focus-visible {
+  outline: 2px solid var(--gray-12);
+  outline-offset: 2px;
+}
+
+.ThemeToggle.active {
+  background-color: var(--gray-4);
+  cursor: default;
+}

@@ -1,0 +1,28 @@
+.joy-fb {
+  flex-basis: var(--fb);
+}
+@media (--xs) {
+  .xs\:joy-fb {
+    flex-basis: var(--fb-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-fb {
+    flex-basis: var(--fb-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-fb {
+    flex-basis: var(--fb-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-fb {
+    flex-basis: var(--fb-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-fb {
+    flex-basis: var(--fb-xl);
+  }
+}

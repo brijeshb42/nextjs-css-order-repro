@@ -1,0 +1,26 @@
+@breakpoints {
+  .joy-ac-center {
+    align-content: center;
+  }
+  .joy-ac-end {
+    align-content: end;
+  }
+  .joy-ac-normal {
+    align-content: normal;
+  }
+  .joy-ac-start {
+    align-content: start;
+  }
+  .joy-ac-space-around {
+    align-content: space-around;
+  }
+  .joy-ac-space-between {
+    align-content: space-between;
+  }
+  .joy-ac-space-evenly {
+    align-content: space-evenly;
+  }
+  .joy-ac-stretch {
+    align-content: stretch;
+  }
+}

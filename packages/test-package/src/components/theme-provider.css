@@ -1,0 +1,25 @@
+@layer tokens {
+  /* Typography defaults */
+  .joy {
+    /* Color scheme: light */
+    color-scheme: light;
+    font-family: var(--default-font-family);
+    font-size: var(--default-font-size);
+    line-height: var(--default-line-height);
+    font-weight: var(--default-font-weight);
+    font-style: var(--default-font-style);
+    letter-spacing: var(--default-letter-spacing);
+    font-optical-sizing: auto;
+    text-size-adjust: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+    color: var(--default-text-color);
+  }
+
+  /* Color scheme: dark */
+
+  .joy:where(.dark) {
+    color-scheme: dark;
+  }
+}

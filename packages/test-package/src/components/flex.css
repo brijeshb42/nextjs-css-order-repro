@@ -1,0 +1,7 @@
+@layer components {
+  .joy-Flex {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+@breakpoints {
+  .joy-pos-static {
+    position: static;
+  }
+  .joy-pos-absolute {
+    position: absolute;
+  }
+  .joy-pos-relative {
+    position: relative;
+  }
+  .joy-pos-sticky {
+    position: sticky;
+  }
+  .joy-pos-fixed {
+    position: fixed;
+  }
+}

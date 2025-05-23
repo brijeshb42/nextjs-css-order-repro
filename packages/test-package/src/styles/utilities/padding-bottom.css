@@ -1,0 +1,70 @@
+@breakpoints {
+  .joy-pb {
+    /* Keep to maintain selector order */
+  }
+  .joy-pb-0 {
+    padding-bottom: 0;
+  }
+  .joy-pb-1 {
+    padding-bottom: var(--space-1);
+  }
+  .joy-pb-2 {
+    padding-bottom: var(--space-2);
+  }
+  .joy-pb-3 {
+    padding-bottom: var(--space-3);
+  }
+  .joy-pb-4 {
+    padding-bottom: var(--space-4);
+  }
+  .joy-pb-5 {
+    padding-bottom: var(--space-5);
+  }
+  .joy-pb-6 {
+    padding-bottom: var(--space-6);
+  }
+  .joy-pb-7 {
+    padding-bottom: var(--space-7);
+  }
+  .joy-pb-8 {
+    padding-bottom: var(--space-8);
+  }
+  .joy-pb-9 {
+    padding-bottom: var(--space-9);
+  }
+  .joy-pb-10 {
+    padding-bottom: var(--space-10);
+  }
+  .joy-pb-inset {
+    padding-bottom: var(--inset-pb);
+  }
+}
+
+.joy-pb {
+  padding-bottom: var(--pb);
+}
+@media (--xs) {
+  .xs\:joy-pb {
+    padding-bottom: var(--pb-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-pb {
+    padding-bottom: var(--pb-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-pb {
+    padding-bottom: var(--pb-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-pb {
+    padding-bottom: var(--pb-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-pb {
+    padding-bottom: var(--pb-xl);
+  }
+}

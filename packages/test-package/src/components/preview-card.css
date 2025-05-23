@@ -1,0 +1,41 @@
+@layer components {
+  .joy-PreviewCardPopup {
+    box-sizing: border-box;
+    box-shadow: var(--shadow-6);
+    background-color: var(--panel);
+    transform-origin: var(--transform-origin);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .joy-PreviewCardPopup[data-open] {
+      transition:
+        transform 150ms,
+        opacity 150ms;
+    }
+
+    .joy-PreviewCardPopup[data-starting-style] {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+  }
+
+  @breakpoints {
+    .joy-PreviewCardPopup.size-1 {
+      max-width: var(--max-w, 240px);
+      padding: var(--space-2);
+      border-radius: var(--radius-3);
+    }
+
+    .joy-PreviewCardPopup.size-2 {
+      max-width: var(--max-w, 320px);
+      padding: var(--space-3);
+      border-radius: var(--radius-4);
+    }
+
+    .joy-PreviewCardPopup.size-3 {
+      max-width: var(--max-w, 400px);
+      padding: var(--space-4);
+      border-radius: var(--radius-5);
+    }
+  }
+}

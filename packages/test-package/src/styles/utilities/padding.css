@@ -1,0 +1,73 @@
+@breakpoints {
+  .joy-p {
+    /* Keep to maintain selector order */
+  }
+  .joy-p-0 {
+    padding: 0;
+  }
+  .joy-p-1 {
+    padding: var(--space-1);
+  }
+  .joy-p-2 {
+    padding: var(--space-2);
+  }
+  .joy-p-3 {
+    padding: var(--space-3);
+  }
+  .joy-p-4 {
+    padding: var(--space-4);
+  }
+  .joy-p-5 {
+    padding: var(--space-5);
+  }
+  .joy-p-6 {
+    padding: var(--space-6);
+  }
+  .joy-p-7 {
+    padding: var(--space-7);
+  }
+  .joy-p-8 {
+    padding: var(--space-8);
+  }
+  .joy-p-9 {
+    padding: var(--space-9);
+  }
+  .joy-p-10 {
+    padding: var(--space-10);
+  }
+  .joy-p-inset {
+    padding-top: var(--inset-pt);
+    padding-right: var(--inset-pr);
+    padding-bottom: var(--inset-pb);
+    padding-left: var(--inset-pl);
+  }
+}
+
+.joy-p {
+  padding: var(--p);
+}
+@media (--xs) {
+  .xs\:joy-p {
+    padding: var(--p-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-p {
+    padding: var(--p-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-p {
+    padding: var(--p-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-p {
+    padding: var(--p-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-p {
+    padding: var(--p-xl);
+  }
+}

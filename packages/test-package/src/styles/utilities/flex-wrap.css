@@ -1,0 +1,11 @@
+@breakpoints {
+  .joy-fw-wrap {
+    flex-wrap: wrap;
+  }
+  .joy-fw-nowrap {
+    flex-wrap: nowrap;
+  }
+  .joy-fw-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+}

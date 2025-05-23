@@ -1,0 +1,17 @@
+@breakpoints {
+  .joy-as-baseline {
+    align-self: baseline;
+  }
+  .joy-as-center {
+    align-self: center;
+  }
+  .joy-as-end {
+    align-self: end;
+  }
+  .joy-as-start {
+    align-self: start;
+  }
+  .joy-as-stretch {
+    align-self: stretch;
+  }
+}

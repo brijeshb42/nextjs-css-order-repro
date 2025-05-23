@@ -1,0 +1,64 @@
+@breakpoints {
+  .joy-max-h {
+    /* Keep to maintain selector order */
+  }
+  .joy-max-h-0 {
+    max-height: 0;
+  }
+  .joy-max-h-1 {
+    max-height: var(--space-1);
+  }
+  .joy-max-h-2 {
+    max-height: var(--space-2);
+  }
+  .joy-max-h-3 {
+    max-height: var(--space-3);
+  }
+  .joy-max-h-4 {
+    max-height: var(--space-4);
+  }
+  .joy-max-h-5 {
+    max-height: var(--space-5);
+  }
+  .joy-max-h-6 {
+    max-height: var(--space-6);
+  }
+  .joy-max-h-7 {
+    max-height: var(--space-7);
+  }
+  .joy-max-h-8 {
+    max-height: var(--space-8);
+  }
+  .joy-max-h-10 {
+    max-height: var(--space-10);
+  }
+}
+
+.joy-max-h {
+  max-height: var(--max-h);
+}
+@media (--xs) {
+  .xs\:joy-max-h {
+    max-height: var(--max-h-xs);
+  }
+}
+@media (--sm) {
+  .sm\:joy-max-h {
+    max-height: var(--max-h-sm);
+  }
+}
+@media (--md) {
+  .md\:joy-max-h {
+    max-height: var(--max-h-md);
+  }
+}
+@media (--lg) {
+  .lg\:joy-max-h {
+    max-height: var(--max-h-lg);
+  }
+}
+@media (--xl) {
+  .xl\:joy-max-h {
+    max-height: var(--max-h-xl);
+  }
+}

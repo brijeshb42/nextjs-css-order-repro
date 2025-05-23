@@ -1,0 +1,17 @@
+@breakpoints {
+  .joy-ai-baseline {
+    align-items: baseline;
+  }
+  .joy-ai-center {
+    align-items: center;
+  }
+  .joy-ai-end {
+    align-items: end;
+  }
+  .joy-ai-start {
+    align-items: start;
+  }
+  .joy-ai-stretch {
+    align-items: stretch;
+  }
+}
